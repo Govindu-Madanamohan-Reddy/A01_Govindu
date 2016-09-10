@@ -1,0 +1,41 @@
+body{
+	background-image: url("Background.jpg");
+}
+#images1{
+	height: 120px;
+	width: 900px;
+	border-radius: 8px;
+}
+#images2{
+	height: 120px;
+	width: 420px;
+	border-radius: 8px;
+}
+#navigator {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 8px;
+
+}
+
+.active {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+#id1{
+padding-bottom: 10px;
+}

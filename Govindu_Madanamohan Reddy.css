@@ -1,0 +1,56 @@
+body{
+	background-image: url("Background.jpg");
+}
+#images1{
+	height: 120px;
+	width: 900px;
+	border-radius: 8px;
+}
+#images2{
+	height: 120px;
+	width: 420px;
+	border-radius: 8px;
+}
+#navigator {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 8px;
+
+}
+
+.active {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+img{
+	padding-top: 5px;
+	height: 300px;
+	width: 300px;
+
+}
+
+.ab{
+
+list-style-type: square;
+margin-right: 100px;
+float: right;
+padding-right: 460px;
+
+}
+
+
+
